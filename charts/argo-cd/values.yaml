@@ -19,3 +19,6 @@ argo-cd:
         - type: helm
           name: rancher-latest
           url: https://releases.rancher.com/server-charts/latest
+        - type: helm
+          name: jetstack
+          url: https://charts.jetstack.io
