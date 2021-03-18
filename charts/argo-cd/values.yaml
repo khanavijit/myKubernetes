@@ -16,3 +16,6 @@ argo-cd:
         - type: helm
           name: argo-cd
           url: https://argoproj.github.io/argo-helm
+        - type: helm
+          name: rancher-latest
+          url: https://releases.rancher.com/server-charts/latest
