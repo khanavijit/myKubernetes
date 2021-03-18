@@ -8,7 +8,7 @@ metadata:
 spec:
   destination:
     server: https://kubernetes.default.svc
-    namespace: default
+    namespace: cattle-system
   project: default
   source:
     chart: rancher-stable/rancher
